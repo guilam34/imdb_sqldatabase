@@ -1,0 +1,99 @@
+body{
+	background-color: #3284BF;
+	color:#FFFFFF;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin:0;
+	padding:0;
+}
+
+.errorMessage{
+	margin:0 auto;
+	text-align: center;
+	font-weight: bold;
+}
+
+.successMessage{
+	font-weight: bold;
+}
+
+.normaltext, .successMessage{
+	font-size: 1.4em;
+	line-height:200%;
+}
+
+.section{
+	display: inline-block;
+}
+
+.pagelink{
+	border-top: 1px solid #ffffff;
+	font-size: 1.4em;
+	height:16.7%;
+	padding:5px 0;
+	position: relative;
+}
+
+.pagelink:hover{
+	background-color: #ffb300;
+}
+
+a{
+	color:#ffffff;
+	text-decoration: none;
+	top:40%;
+	position:relative;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#sidebar{
+	border-right: 1px solid #ffffff;
+	height:100%;
+	line-height: 150%;
+	position:fixed;
+	text-align: center;
+	width:400px;
+}
+
+#heading{
+	height:15%;
+}
+
+#tabs{
+	height:60%;
+	position:relative;
+}
+
+#content{
+	left:450px;
+	position:absolute;
+	top:5%;
+}
+
+#queryform{
+	font-size: 1.4em;
+	line-height:200%;
+}
+
+#submit{
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  border-color: #FFFFFF;
+  border-width: 1px;
+  font-family: Arial;
+  color: #3284BF;
+  font-size: 20px;
+  background: #FFFFFF;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+
+}
+
+#submit:hover{
+  color: #ffffff;
+  background: #ffb300;
+  border-color: #ffb300;
+};
